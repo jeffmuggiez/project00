@@ -1,0 +1,32 @@
+
+body {
+  background-color:#9be7e8;
+  padding:5px;
+	margin:50px;
+  width:700px;
+}
+
+span {
+
+font-weight: bold; color: red;
+}
+
+.outer {
+  width: 700px;
+  height: 400px;
+    overflow: scroll;
+  position: absolute;
+  left: 400px; top:35%;
+  }
+
+  .navigation{
+  	padding:0px;
+  	text-align:left;
+  }
+
+  a, a img{
+  	text-decoration:none;
+  	border:0;
+  	outline:none;
+    color:#750e24;
+  }
