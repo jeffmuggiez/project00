@@ -25,8 +25,8 @@ This page gives one the tools necessary for for forex trading forexample
 -trading patterns for the traders to ease their trading technical anylsis
 
 Community
-
-This is where members get helpful information regarding our community and other activities of the community
+- Here new members can join the group and be part of the community buy filling the form.
+- Members also get helpful information regarding our community and other activities of the community
 
 blog
 

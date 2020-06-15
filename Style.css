@@ -32,12 +32,36 @@ ul {
 	text-align:left;
 }
 
-#one {
-  position: fixed;
-  top: 3px;
-  left: 2px;
-  }
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 
+  list-style: none;
+  margin: 0;
+  background: #750e24;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #9be7e8;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+}
+
+  .navigation a {
+    text-align: right;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
 
 #two {
   position: relative;
@@ -87,4 +111,26 @@ td {
 	text-align:justify;
 	  border: 2px solid red;
     background-color: white; width: 80%;
+}
+
+.form{
+	margin:30px 0 0 0;
+	padding:0px;
+}
+
+.form input, .form textarea{
+	display:block;
+	border-radius:5px;
+	border:1px solid #999999;
+	padding:5px;
+	width:98%;
+	margin:10px 0px;
+}
+
+.form input[type="submit"]{
+	width:100%;
+	cursor:pointer;
+	background:#000000;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
 }
